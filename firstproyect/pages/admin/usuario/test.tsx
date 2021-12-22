@@ -1,9 +1,12 @@
 import React from 'react'
-
+import Link from "next/link"
 const test = () => {
   return (
     <div>
-      pagina de admin de usuarios
+      <div> Pagina de Usuarios</div>
+      <Link href="/">
+      <a>Ir al Home</a>
+      </Link>
     </div>
   )
 }

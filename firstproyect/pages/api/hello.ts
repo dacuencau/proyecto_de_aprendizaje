@@ -7,9 +7,6 @@ type Data = {
 
 export default function handler(req: NextApiRequest,res: NextApiResponse<Data>) {
   if(req.method==="GET"){
-    res.status(200).json({ name: 'Hice un Get' });}
-  if(req.method==="POST) {
-    res.status(200).json({ name: 'John Doe' });
+    res.status(200).json({ name: 'Hice un Get' });
   }
-
 }
